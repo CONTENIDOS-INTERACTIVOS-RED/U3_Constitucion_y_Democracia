@@ -4,74 +4,86 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .bg-color-2.mb-5(data-aos="fade-up")
-        .row.justify-content-center.align-items-center
-          .col-lg
-            .p-4
-              p.mb-0(data-aos="fade-up") El orden legal en Colombia se estructura en torno a la Constitución Política, que representa el eje central para la organización del Estado y regula las relaciones entre los ciudadanos y los poderes públicos. Este documento establece un acuerdo social fundamental para la convivencia pacífica y el desarrollo de una sociedad justa y equitativa.
-          .col-lg-auto
-            figure
-              img(src='@/assets/curso/tema1/1.png', alt='')
-
-    h2(data-aos="flip-up") Evolución del concepto de Constitución
-
-    p.mb-5(data-aos="fade-up") El concepto de constitución ha evolucionado históricamente, respondiendo a las necesidades de las sociedades en diferentes contextos:
-
-    LineaTiempoE.color-primario.mb-5
-      .row(titulo="Antigüedad" subtitulo="")
-        .col-lg-6.mb-4.mb-lg-0
-          p Surgen los primeros ordenamientos básicos en civilizaciones como Roma, con normas para la organización política y social.
-        .col-lg-6
+      .row.justify-content-center.align-items-center
+        .col-lg
+          .p-4
+            p.mb-0(data-aos="fade-up") Las acciones constitucionales en Colombia representan herramientas esenciales para garantizar y proteger los derechos de los ciudadanos en un contexto democrático. Diseñadas bajo principios de justicia social y equidad, estas acciones buscan asegurar tanto los derechos individuales como los colectivos, ofreciendo a los ciudadanos acceso ágil y directo a la justicia en caso de vulneración de derechos.
+        .col-lg-auto
           figure
-            img(src='@/assets/curso/tema1/2.png', alt='')
-
-      .row(titulo="Edad Media" subtitulo="")
-        .col-lg-6.mb-4.mb-lg-0
-          p Predominio de monarquías absolutas, con concentración del poder en una figura central.
-        .col-lg-6
-          figure
-            img(src='@/assets/curso/tema1/3.png', alt='')  
-
-      .row(titulo="Revolución Francesa y EUA" subtitulo="")
-        .col-lg-6.mb-4.mb-lg-0
-          p Introducción de ideas modernas como la separación de poderes y la supremacía de la ley, limitando el poder estatal.
-        .col-lg-6
-          figure
-            img(src='@/assets/curso/tema1/4.png', alt='')  
+            img(src='@/assets/curso/tema1/1.png', alt='')
 
 
-    h2(data-aos="flip-up") La Constitución como compendio de normas
+    h2(data-aos="flip-up") Tipos de acciones constitucionales
+    p.mb-4(data-aos="fade-up") A continuación, se presenta un resumen de las principales acciones constitucionales y sus características:
 
-    p.mb-4(data-aos="fade-up") La Constitución se divide en dos partes principales:
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .bg-color-5.p-4.px-lg-5.mb-3
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/tema1/5.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              .row.align-items-center
-                .col-lg-4
-                  h4.mb-0 Parte Dogmática
-                .col-lg-8
-                  p.mb-0 Establece derechos, libertades y principios filosóficos que inspiran el ordenamiento jurídico.
+    TabsC.color-acento-contenido.mb-5
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Acción de tutela" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+        .row
+          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+            h4 Acción de tutela
+            p Se utiliza para proteger derechos fundamentales frente a una amenaza o vulneración inminente. Es un mecanismo rápido y sencillo, ideal para garantizar derechos básicos, como la salud, la educación o la vida.
         
-        .bg-color-5.p-4.px-lg-5
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/tema1/6.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              .row.align-items-center
-                .col-lg-4
-                  h4.mb-0 Parte Orgánica
-                .col-lg-8
-                  p.mb-0 Define la estructura del estado, distribuye competencias entre órganos y regula procedimientos de ejercicio del poder.
+          .col-md-6.col-lg-5.col-xl-4.order-1
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/tab-1.png', alt='')
+
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Acciones populares" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+        .row
+          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+            h4 Acciones populares
+            p Orientadas a proteger derechos e intereses colectivos, como el medio ambiente, la seguridad pública o el acceso a servicios básicos. Permiten a las comunidades actuar frente a situaciones que afecten su bienestar común.
+
+          .col-md-6.col-lg-5.col-xl-4.order-1
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/tab-2.png', alt='')
+
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Acciones de grupo " :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+        .row
+          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+            h4 Acciones de grupo 
+            p Buscan proteger los derechos de un grupo de personas que hayan sido afectadas de manera similar por una acción u omisión de una entidad pública o privada. Son mecanismos fundamentales en casos de perjuicios colectivos significativos.
+
+          .col-md-6.col-lg-5.col-xl-4.order-1
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/tab-3.png', alt='')
 
 
 
-    h2(data-aos="flip-up") Principios fundamentales
+    h2(data-aos="flip-up") Impacto social y fortalecimiento democrático
+    p.mb-4(data-aos="fade-up") Más allá de su marco jurídico, las acciones constitucionales promueven el ejercicio activo de la ciudadanía y el fortalecimiento de la democracia. Estos mecanismos fomentan la participación ciudadana, permitiendo que sectores vulnerables accedan a la protección de sus derechos. Por ejemplo, casos emblemáticos como la protección del Río Atrato evidencian cómo las acciones populares han sido clave para enfrentar intereses que amenazan derechos colectivos, como el medio ambiente.
 
-    p.mb-5(data-aos="fade-up") La Constitución refleja valores como justicia, igualdad, libertad y paz, orientando la labor de los gobernantes y sirviendo como base para interpretar las normas jurídicas. Las constituciones se clasifican según su forma y proceso de modificación:
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-7
+        .py-4.px-5.bg-color-2(data-aos="fade-right").h-100
+          p.mb-0 Conocer y comprender las acciones constitucionales es fundamental para ejercer un papel activo en la construcción de una sociedad más equitativa. Además de entender los derechos que garantizan, estas acciones también implican responsabilidades ciudadanas. Para profundizar en estos temas, se recomienda explorar los análisis disponibles en la página de la Corte Constitucional y el libro de Valencia Villa (2019), que ofrecen perspectivas claras sobre los derechos fundamentales en Colombia.
+      .col-lg-5
+        figure
+          img(src="@/assets/curso/tema1/2.svg", alt="", data-aos="zoom-in")
+
+
+    .bg-full-width.bg-color-6.mb-5
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-5
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/3.png', alt='')
+          .col-lg-7
+            h2.mb-4(data-aos="flip-up") Concepto y propósito de las acciones constitucionales.
+            p.mb-4(data-aos="fade-right") Le invitamos a conocer más sobre el Concepto y propósito de las acciones constitucionales. Estas herramientas jurídicas son primordiales para proteger y garantizar derechos fundamentales y colectivos en Colombia, asegurando acceso directo a la justicia sin importar la posición social o económica. Descubra los diferentes mecanismos como la acción de tutela, las acciones populares, y el habeas corpus, así como su impacto en la justicia social y la democracia participativa.
+
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Concepto y propósito de las acciones constitucionales.
+
+
+    h2(data-aos="flip-up") Clasificación en acciones individuales y colectivas
+    p.mb-4(data-aos="fade-up") Las acciones constitucionales en Colombia se clasifican en dos categorías principales: #[b acciones individuales y acciones colectivas.] Esta clasificación responde a los diferentes objetivos y alcances que tienen estas herramientas dentro del marco del Estado Social de Derecho, garantizando tanto la protección de derechos fundamentales individuales como la defensa de intereses colectivos que afectan a la sociedad en general.
+
+    h2(data-aos="flip-up") Acciones individuales
+    p.mb-4(data-aos="fade-up") Las acciones constitucionales en Colombia se clasifican en dos categorías principales: #[b acciones individuales y acciones colectivas.] Esta clasificación responde a los diferentes objetivos y alcances que tienen estas herramientas dentro del marco del Estado Social de Derecho, garantizando tanto la protección de derechos fundamentales individuales como la defensa de intereses colectivos que afectan a la sociedad en general.
+
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
@@ -81,43 +93,160 @@
               figure
                 img(src="@/assets/curso/tema1/slider-1.png")
             .col-lg-7.order-lg-1
-              h5 Rígidas y flexibles
-              p Las rígidas requieren procedimientos especiales para su modificación, mientras que las flexibles permiten cambios con procesos legislativos ordinarios.
+              h5 Acción de tutela
+              ul.lista-ul.mb-3
+                li 
+                  i.lista-ul__vineta
+                  | Diseñada para garantizar los derechos fundamentales de una persona en un plazo corto (10 días hábiles).
+                li 
+                  i.lista-ul__vineta
+                  | Es accesible y no requiere asistencia legal especializada.
+                li 
+                  i.lista-ul__vineta
+                  | Se utiliza en casos como la negación de servicios de salud o la obstrucción del acceso a la educación.
+
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-lg-2
               figure
                 img(src="@/assets/curso/tema1/slider-2.png")
             .col-lg-7.order-lg-1
-              h5 Escritas y consuetudinarias
-              p Escritas se plasman en un texto único; consuetudinarias derivan de prácticas y costumbres.
+              h5 Habeas corpus
+              ul.lista-ul.mb-3
+                li 
+                  i.lista-ul__vineta
+                  | Enfocado en la protección de la libertad personal frente a detenciones arbitrarias o ilegales.
+                li 
+                  i.lista-ul__vineta
+                  | Permite la liberación inmediata si se demuestra que la detención no cumple con los requisitos legales.
+                li 
+                  i.lista-ul__vineta
+                  | Es especialmente relevante en casos de detenciones injustificadas durante protestas sociales o conflictos armados.
+
+    p(data-aos="fade-up").mb-4 Estas herramientas garantizan el acceso a la justicia y refuerzan la protección de los derechos individuales.
+
+
+    h2(data-aos="flip-up") Acciones colectivas
+    p.mb-4(data-aos="fade-up") Tienen un enfoque más amplio y protegen intereses que afectan a grupos de personas o comunidades enteras. Se subdividen en:
+
+    TabsC.color-acento-contenido.mb-5
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Acciones populares" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+        .row
+          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+            h4 Acciones populares
+            ul.lista-ul.mb-3
+              li 
+                i.lista-ul__vineta
+                | Protegen derechos colectivos como el medio ambiente, la salud pública y el espacio público.
+              li 
+                i.lista-ul__vineta
+                | Tienen un carácter preventivo, pues no requieren que se haya producido un daño, sino que basta con demostrar una amenaza real.
+              li 
+                i.lista-ul__vineta
+                | Ejemplo: la suspensión de proyectos mineros que afectan ecosistemas vitales.
+
+        
+          .col-md-6.col-lg-5.col-xl-4.order-1
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/tab-1-2.png', alt='')
+
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Acciones de grupo" :icon="require('@/assets/bullets/icon-tab-c-1.svg')" )
+        .row
+          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+            h4 Acciones de grupo
+            ul.lista-ul.mb-3
+              li 
+                i.lista-ul__vineta
+                | Enfocadas en proteger derechos individuales que afectan a un conjunto de personas con situaciones similares.
+              li 
+                i.lista-ul__vineta
+                | Ejemplo: demandas colectivas por desastres ambientales que buscan reparaciones económicas o soluciones para todos los afectados.
+
+          .col-md-6.col-lg-5.col-xl-4.order-1
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/tab-2-2.png', alt='')
+
+    p(data-aos="fade-up").mb-4 Estas acciones son fundamentales para resolver problemas de impacto colectivo y promover la equidad.
+
+    h2(data-aos="flip-up") Relación con los principios de la democracia participativa
+    p.mb-4(data-aos="fade-up") Las acciones constitucionales no solo cumplen funciones jurídicas, sino que también fortalecen los principios de la democracia participativa, promoviendo la equidad, la justicia social y la transparencia. Sus contribuciones incluyen:
+
+    .row.align-items-start.mb-5
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema1/3.png", alt="").mb-4.mb-lg-0
+      .col-lg-8
+        AcordionA(tipo="b")
+          .div(titulo="Garantía de acceso a la justicia")
+            p Democratizan el sistema judicial al permitir que cualquier ciudadano pueda presentar una acción sin necesidad de representación legal compleja.
+            p #[b Ejemplo:] Comunidades marginadas exigen derechos al agua potable o condiciones de vida dignas mediante acciones populares.
+
+          .div(titulo="Fortalecimiento del control social")
+            p Permiten a los ciudadanos cuestionar decisiones o políticas que vulneren sus derechos, garantizando rendición de cuentas.
+            p #[b Ejemplo:] Uso de la tutela para exigir atención en salud obliga a las entidades a cumplir sus deberes.
+
+          .div(titulo="Promoción de la equidad y justicia social")
+            p Reducen desigualdades estructurales al garantizar igualdad de oportunidades para defender derechos.
+            p #[b Ejemplo:] Acciones de grupo permiten a comunidades vulnerables obtener reparaciones justas, como víctimas de desastres ambientales.
+
+          .div(titulo="Construcción de una cultura democrática")
+            p Promueven la educación cívica y el conocimiento sobre el sistema jurídico y los derechos constitucionales.
+            p #[b Ejemplo:] El uso frecuente de estas acciones fomenta mayor conciencia sobre democracia participativa y derechos humanos.
+
+
+    h2(data-aos="flip-up") Casos emblemáticos de aplicación
+    p.mb-4(data-aos="fade-up") Las acciones constitucionales en Colombia han sido clave para resolver problemáticas diversas y garantizar derechos fundamentales y colectivos en diferentes contextos. A continuación, se presentan algunos casos destacados:
+
+
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-lg-2
               figure
-                img(src="@/assets/curso/tema1/slider-3.png")
+                img(src="@/assets/curso/tema1/slider-1-2.png")
             .col-lg-7.order-lg-1
-              h5 Originarias y derivadas
-              p Las originarias crean un nuevo orden jurídico; las derivadas evolucionan de un sistema preexistente.
+              h5 Protección del Páramo de Santurbán
+              p A través de una acción popular, se suspendieron proyectos mineros que amenazaban este ecosistema. La Corte Constitucional ordenó reevaluar las licencias, garantizando el suministro de agua a comunidades cercanas.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-lg-2
+              figure
+                img(src="@/assets/curso/tema1/slider-2-2.png")
+            .col-lg-7.order-lg-1
+              h5 Garantías educativas
+              p Mediante acciones de tutela, los padres lograron recursos esenciales como alimentación y transporte escolar para estudiantes en instituciones públicas, fortaleciendo el acceso a la educación.
+
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-lg-2
+              figure
+                img(src="@/assets/curso/tema1/slider-3-2.png")
+            .col-lg-7.order-lg-1
+              h5 Restitución de empleos
+              p Trabajadores despedidos injustificadamente recuperaron sus empleos y obtuvieron indemnizaciones gracias a la acción de tutela, reforzando las garantías laborales.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-lg-2
+              figure
+                img(src="@/assets/curso/tema1/slider-4-2.png")
+            .col-lg-7.order-lg-1
+              h5 Relleno sanitario en Ciudad Bolívar
+              p Una acción de grupo permitió a los habitantes afectados obtener compensaciones económicas y medidas correctivas para el manejo de desechos, mejorando su calidad de vida.
 
 
-    h3(data-aos="flip-up") Objetivo de la Constitución
-
-    p(data-aos="fade-up") El propósito principal es organizar el ejercicio del poder del Estado, garantizar derechos fundamentales y equilibrar poder y libertades individuales. Además, actúa como un "canal normativo" que transfiere el poder del Estado a los gobernantes bajo límites legales, asegurando la estabilidad institucional.
-
-    .bg-full-width.bg-fondo-1
+              
+    .bg-full-width-2.bg-fondo-1
       .p-4.p-md-5
-        h2(data-aos="flip-up") Jerarquía Normativa en Colombia
-        p(data-aos="fade-up").mb-4 La #[strong jerarquía normativa] asegura coherencia y estabilidad en el sistema jurídico, con la Constitución Política de 1991 como base fundamental.
+        h2(data-aos="flip-up") Principios y características fundamentales
+        p(data-aos="fade-up").mb-4 La democracia implica la distribución equitativa del poder y la participación activa de los ciudadanos. Aunque los modelos modernos difieren del ateniense en estructura, comparten principios esenciales:
 
         div.row.justify-content-center.align-items-stretch
           div.col-lg-4.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100
               img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/7.svg"
+                src="@/assets/curso/tema1/4.svg"
                 alt=""
                 style="width: 90px"
               )
-              h5.text-center Constitución Política
-              p.mb-0.text-center Nivel más alto, establece principios fundamentales, regula el sistema jurídico y protege derechos fundamentales.
+              h5.text-center Rapidez y accesibilidad
+              p.mb-0.text-center La acción de tutela es ágil, con tiempos de respuesta cortos, ideal para casos urgentes. Su diseño simplificado permite a cualquier ciudadano interponerla sin necesidad de abogado.
           
           div.col-lg-4.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100
@@ -126,220 +255,45 @@
                 alt=""
                 style="width: 90px"
               )
-              h5.text-center Leyes
-              p.mb-0.text-center Normas que desarrollan los principios constitucionales y regulan aspectos específicos.
+              h5.text-center Prevención y protección
+              p.mb-0.text-center Las acciones colectivas, como las populares, son efectivas para prevenir daños mayores.
+              p #[b Ejemplo:] en Antioquia, se suspendió la construcción de una planta industrial que incumplía normas ambientales.
+
           
           div.col-lg-4.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100
               img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/9.svg"
+                src="@/assets/curso/tema1/6.svg"
                 alt=""
                 style="width: 90px"
               )
-              h5.text-center Decretos y Reglamentos
-              p.mb-0.text-center Instrumentos que detallan y complementan las leyes, sin contradecir la Constitución.
+              h5.text-center Empoderamiento ciudadano
+              p.mb-0.text-center Estas herramientas protegen derechos y educan a las comunidades sobre su importancia.
+              p #[b Ejemplo:] víctimas de desplazamiento forzado lograron reparaciones y reubicación de tierras en el Meta mediante acciones de grupo.
 
 
-    h2(data-aos="flip-up") Supremacía de la Constitución
+    h2(data-aos="flip-up") Desafíos y áreas de mejora
+    p(data-aos="fade-up").mb-4 Los desafíos y áreas de mejora en el sistema judicial destacan la importancia de optimizar la ejecución de fallos y abordar la sobrecarga de casos.
 
-    p(data-aos="fade-up").mb-4 La Constitución garantiza que todas las normas sean coherentes con sus principios, regulando los derechos y estableciendo mecanismos como la acción de tutela para protegerlos ante vulneraciones.
-
-    .row.align-items-center.justify-content-center.mb-5
-      .col-lg-10
-        .bg-color-5.p-4.px-lg-5
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/tema1/10.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 Esta estructura normativa permite que el sistema legal colombiano funcione de manera armónica y acorde con los valores democráticos. 
-    
-
-    h2(data-aos="flip-up") Clasificación de las leyes
-
-    p.mb-4(data-aos="fade-up") El marco normativo en Colombia se organiza en diversas categorías de leyes que desempeñan funciones específicas dentro de la jerarquía constitucional.
-
-    .bg-full-width.bg-fondo-slider.mb-5
-      .p-4.p-md-5
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/47vKOZoRGtw?si=a_LrQd3hjPOsvIv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-
-    h2(data-aos="flip-up") Reglamentos y Decretos
-
-    p(data-aos="fade-up").mb-4 En el nivel inferior de la jerarquía normativa se encuentran los reglamentos y decretos, que son emitidos por el poder ejecutivo para desarrollar y aplicar las leyes. Estos instrumentos, según el Manual de Estructura del Estado Colombiano (Función Pública, s.f.), son esenciales para la implementación práctica de las disposiciones legales, aunque deben respetar los límites establecidos por las normas superiores.
-
-
-    .bg-color-3.mb-5(data-aos="fade-up")
-      .row.justify-content-center.align-items-center
-        .col-lg-auto
-          figure
-            img(src='@/assets/curso/tema1/11.png', alt='')
-
-        .col-lg
-          .p-4
-            h5.mb-3 Decretos reglamentarios
-            ul.lista-ul.mb-3
-              li 
-                i.lista-ul__vineta
-                | Desarrollan las leyes aprobadas por el congreso, especificando su aplicación en contextos específicos.
-              li 
-                i.lista-ul__vineta
-                | Decreto 1072 de 2015 ( Disposiciones laborales).
-
-
-    .bg-color-3.mb-5(data-aos="fade-up")
-      .row.justify-content-center.align-items-center
-        .col-lg
-          .p-4.ps-lg-5
-            h5.mb-3 Resoluciones y circulares
-            ul.lista-ul.mb-3
-              li 
-                i.lista-ul__vineta
-                | Regulan situaciones especificas dentro de la competencia de las entidades administrativas, siempre conformes a las normas superiores.
-              li 
-                i.lista-ul__vineta
-                | Resoluciones, internas de entidades gubernamentales.
-        .col-lg-auto
-          figure
-            img(src='@/assets/curso/tema1/12.png', alt='')
-
-    p(data-aos="fade-up").mb-4 El control constitucional garantiza que todas las normas y actos administrativos sean compatibles con la Constitución. Por ejemplo, en la Sentencia C-588 de 2009, la Corte Constitucional declaró inconstitucional una ley que contradecía principios fundamentales como la igualdad y la equidad, asegurando la supremacía constitucional.
-
-
-    .bg-full-width-2.bg-fondo-2
-      .p-4.p-md-5.pb-0
-        h2(data-aos="flip-up") Impacto en la vida cotidiana
-        p(data-aos="fade-up").mb-5 El sistema normativo tiene un impacto directo en la vida diaria de los ciudadanos al garantizar derechos y promover el bienestar colectivo.
-
-        div.row.justify-content-center.align-items-stretch.mb-5
-          div.col-lg-4.mb-4(data-aos="zoom-in-up")
-            div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/13.svg"
-                alt=""
-                style="width: 90px"
-              )
-              h5.text-center Garantía de derechos
-              p.mb-0.text-center La ley Estatutaria del Derecho de Petición permite a los ciudadanos exigir respuestas oportunas de las autoridades. 
-
-          div.col-lg-4.mb-4(data-aos="zoom-in-up")
-            div.bg-color-white.box-shadow.px-4.py-5.h-100
-              img.mx-auto.d-block.mb-4(
-                src="@/assets/curso/tema1/14.svg"
-                alt=""
-                style="width: 90px"
-              )
-              h5.text-center Promoción del bienestar
-              p.mb-0.text-center Los decretos reglamentarios aseguran la aplicación efectiva de las leyes, fortaleciendo el bienestar colectivo.
-          
-        h2(data-aos="flip-up").mb-0 División del poder y concepto de soberanía
-
-    p(data-aos="fade-up").mb-4 La organización del poder público en Colombia se basa en los principios de separación y equilibrio, diseñados para evitar abusos y garantizar el funcionamiento democrático del Estado. Inspirada en Montesquieu, la estructura tripartita incluye las ramas legislativa, ejecutiva y judicial, que trabajan de manera independiente pero coordinada.
-    p(data-aos="fade-up").mb-4 Las ramas del poder público desempeñan funciones esenciales para garantizar el equilibrio y la eficacia del sistema democrático.
-
-
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-4.mb-4(data-aos="zoom-in-up")
-        .custom-image-card.h-100
-          figure
-            img.custom-image-card__image(src="@/assets/curso/tema1/15b.png" alt="")
-          .custom-image-card__text.p-4
-            h5.mb-2.text-center Legislativa
-            ul.lista-ul.mb-3
-              li 
-                i.lista-ul__vineta
-                | Crear leyes, ejercer control político, proponer reformas constitucionales.
-              li 
-                i.lista-ul__vineta
-                | Aprobación del presupuesto general de la nación.
-      .col-lg-4.mb-4(data-aos="zoom-in-down")
-        .custom-image-card.h-100
-          figure
-            img.custom-image-card__image(src="@/assets/curso/tema1/16b.png" alt="")
-          .custom-image-card__text.p-4
-            h5.mb-2.text-center Ejecutiva
-            ul.lista-ul.mb-3
-              li 
-                i.lista-ul__vineta
-                | Administrar el estado, ejecutar leyes, dirigir política exterior.
-              li 
-                i.lista-ul__vineta
-                | Expedición de decretos reglamentarios.
-      .col-lg-4.mb-4(data-aos="zoom-in-down")
-        .custom-image-card.h-100
-          figure
-            img.custom-image-card__image(src="@/assets/curso/tema1/17b.png" alt="")
-          .custom-image-card__text.p-4
-            h5.mb-2.text-center Judicial
-            ul.lista-ul.mb-3
-              li 
-                i.lista-ul__vineta
-                | Interpretar y aplicar leyes, resolver conflictos, proteger derechos fundamentales. 
-
-              li 
-                i.lista-ul__vineta
-                | Control previo sobre leyes estatutarias.
-
-          
-
-    h2(data-aos="flip-up") El Concepto de Soberanía
-
-    p(data-aos="fade-up").mb-4 La soberanía, entendida como la facultad de ejercer el poder supremo dentro de un territorio, reside en el pueblo colombiano, según la Constitución Política de 1991. Esta se manifiesta a través de mecanismos democráticos como:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
-        .bg-color-6.p-4.px-lg-5
-          h3.mb-1 01.
-          p.mb-0 Elecciones generales
+      .col-lg-10
+        .bg-color-11.mb-3
+          .row.justify-content-center.align-items-center
+            .col-lg-auto.bg-color-1.px-4.py-5.w-200px
+              h5.mb-0.text-center Ejecución de fallos
+            .col-lg.px-5
+              p.mb-0.text-center La implementación de sentencias puede ser lenta por falta de recursos o problemas administrativos, lo que afecta la efectividad de estas herramientas. 
 
-      .col-lg-4
-        .bg-color-3.p-4.px-lg-5
-          h3.mb-1 02.
-          p.mb-0 Referendos y consultas populares.
-
-
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-8
-        .bg-color-4.p-4.px-lg-5.h-100
-          h4.mb-1.mt-lg-4 Relación entre soberanía y división del poder
-          p.mb-0 La soberanía popular garantiza que las decisiones estatales reflejen los intereses colectivos y no de una élite particular. Además, los ciudadanos pueden exigir rendición de cuentas mediante acciones como el control político del Congreso y las acciones legales impulsadas por la rama judicial.
-
-      .col-lg-4
-        figure
-          img(src="@/assets/curso/tema1/18.png", alt="")
-
-    h2(data-aos="flip-up") Retos en la división del poder
-
-    p(data-aos="fade-up").mb-4 La división del poder enfrenta diversos retos que pueden comprometer su eficacia y la confianza ciudadana.
-
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-4
-        .tarjeta.bg-color-7.h-100
-          .bg-color-1.px-4.px-lg-5.py-3.rounded-top
-            h4.mb-0.text-center Interferencia entre <br>ramas
-          p.mb-0.p-4 Intereses particulares que buscan influir en decisiones públicas.
-
-      .col-lg-4
-        .tarjeta.bg-color-8.h-100
-          .bg-color-9.px-4.px-lg-5.py-3.rounded-top
-            h4.mb-0.text-center Corrupción <br>institucional
-          p.mb-0.p-4 Debilita los mecanismos de control y la confianza ciudadana.
-
-      .col-lg-4
-        .tarjeta.bg-color-7.h-100
-          .bg-color-1.px-4.px-lg-5.py-3.rounded-top
-            h4.mb-0.text-center Adaptación al entorno globalizado
-          p.mb-0.p-4 Equilibrar la soberanía nacional con la cooperación internacional.
+        .bg-color-6.mb-4
+          .row.justify-content-center.align-items-center
+            .col-lg-auto.bg-color-9.px-4.py-5.w-200px
+              h5.mb-0.text-center Sobrecarga del sistema judicial
+            .col-lg.px-5
+              p.mb-0.text-center El aumento de tutelas y acciones colectivas ha evidenciado la necesidad de reforzar el sistema judicial con recursos humanos y tecnológicos para garantizar celeridad en los procesos.
 
 
-    .bg-full-width.bg-color-4
-      .px-4.px-md-5.py-4
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/tema1/19.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            p.mb-0 La jerarquía normativa y la división del poder en Colombia garantizan el equilibrio institucional y la protección de los derechos fundamentales. Sin embargo, enfrentan retos significativos que demandan soluciones estructurales y participativas para fortalecer la confianza ciudadana y la eficacia del sistema democrático.
+    p(data-aos="fade-up").mb-4 Las acciones constitucionales no solo resuelven problemáticas individuales y colectivas, sino que también fortalecen la democracia participativa al garantizar el acceso equitativo a la justicia. Casos como el del páramo de Santurbán, el acceso educativo en zonas rurales y la restitución de derechos laborales reflejan su capacidad para transformar la sociedad colombiana. Sin embargo, es crucial fortalecer los mecanismos de supervisión y dotar de recursos al sistema judicial para que estas herramientas sigan siendo inclusivas y efectivas.
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -379,4 +333,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.w-200px
+  width: 200px !important
+</style>

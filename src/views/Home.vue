@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La Constitución Política de Colombia es el eje central del orden jurídico, regulando la estructura del Estado y garantizando derechos fundamentales. A través de la jerarquía normativa, el control constitucional y el bloque de constitucionalidad, se asegura la coherencia entre leyes internas y compromisos internacionales, fortaleciendo la democracia y la protección de los derechos humanos. Mecanismos como el voto, la acción de tutela y la consulta popular promueven la participación ciudadana y la transparencia, garantizando un Estado más justo, incluyente y alineado con principios de igualdad y justicia social.
+              p.descripcion.mb-4 Las acciones constitucionales en Colombia, como la tutela, las acciones populares y las de grupo, protegen derechos fundamentales y colectivos, fortaleciendo la justicia social y la democracia participativa. La tutela es rápida y accesible, ideal para casos urgentes. Las acciones populares previenen daños a derechos colectivos, mientras que las de grupo benefician a comunidades afectadas por problemas similares. El Habeas Corpus garantiza la libertad ante detenciones arbitrarias, y el Derecho de Petición permite exigir respuestas claras de las autoridades. Aunque efectivos, estos mecanismos enfrentan retos como demoras, desconocimiento ciudadano y falta de capacitación institucional.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

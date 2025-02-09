@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '2',
-    tituloUnidad: 'Constitución política de Colombia',
+    numeroUnidad: '3',
+    tituloUnidad: 'Naturaleza social de la constitución colombiana',
   },
   menuPrincipal: {
     menu: [
