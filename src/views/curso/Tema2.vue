@@ -164,7 +164,7 @@
               h2.mb-4(data-aos="flip-up") Ejemplo práctico de una tutela
               p.mb-4(data-aos="fade-right") Lo invitamos a explorar el Ejemplo práctico de una tutela, donde se detalla el caso de un paciente con lupus que enfrenta la negativa de su EPS para acceder a un medicamento de alto costo, vulnerando su derecho a la salud y la vida. Además, el análisis destaca los retos comunes en el proceso, como el desconocimiento del procedimiento y las demoras en la ejecución de fallos, resaltando la importancia de este mecanismo para garantizar derechos fundamentales y fortalecer el acceso equitativo a la justicia.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
                 .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
