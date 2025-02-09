@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1331.814" height="456.145" viewBox="0 0 1331.814 456.145">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_990377" data-name="Trazado 990377" d="M0,10H1331.814V466.145H0Z" transform="translate(0 -254)" fill="#ffd8d1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.541" y1="0.874" x2="0.54" y2="0.417" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff3cb"/>
+      <stop offset="1" stop-color="#e5f0f6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Enmascarar_grupo_1098692" data-name="Enmascarar grupo 1098692" transform="translate(0 244)" clip-path="url(#clip-path)">
+    <path id="Trazado_990376" data-name="Trazado 990376" d="M1332.782,395.211s-56.081-23.672-128.282-33.1c-73.448-9.426-146.543-17.8-214.149-15.528-68.854,1.281-176.032,10.1-245.336,22.158s-253.652,40.7-310.481,48.57c-56.829,6.876-110.745,13.441-219.378,9.725S18.572,413.257,0,402.45V-359.711s81.744-17.964,135.836-24.313c52.844-6.348,203.213-8.33,331.965,9.946,105.948,15.186,258.674,44.942,352.973,56.133,13.689,1.625,251.626,9.092,315.809,1.886,62.936-7.207,170.619-28.112,191.348-35.972C1327.93-340.559,1332.782,395.211,1332.782,395.211Z" transform="translate(-0.582 -216.306)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

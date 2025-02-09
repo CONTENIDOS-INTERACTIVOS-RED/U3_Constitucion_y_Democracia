@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La unidad sobre la Constitución Política de Colombia es fundamental para comprender el marco normativo y político del país. Este documento, promulgado en 1991, define la organización del Estado, consagra derechos fundamentales y establece principios éticos que orientan el ejercicio del poder. Como contrato social, regula las relaciones entre ciudadanos e instituciones públicas, promoviendo la convivencia pacífica y la justicia social.
+      p(data-aos="fade-up").mb-5 En esta unidad, se abordarán los mecanismos constitucionales clave para la protección de los derechos fundamentales y la participación ciudadana en Colombia, con un enfoque en las acciones constitucionales, el Habeas Corpus y el Derecho de Petición. Estas herramientas son pilares esenciales del Estado Social de Derecho y garantizan que los ciudadanos puedan defender sus derechos frente a vulnerabilidades provenientes tanto de entidades públicas como de particulares.
 
       .row.justify-content-center
         .col-lg-12.mb-5

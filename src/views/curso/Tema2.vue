@@ -1,49 +1,24 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. Tratados internacionales vigentes en Colombia'")
+    BannerInterno(:subTitulo="'2. Acción de tutela'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
-      .bg-color-10.mb-5(data-aos="fade-up")
-          .row.justify-content-center.align-items-center
-            .col-lg
-              .p-4
-                p.mb-0(data-aos="fade-up") Un tratado internacional es un acuerdo formal celebrado entre sujetos de derecho internacional, como Estados u organizaciones internacionales, destinado a regular aspectos específicos de interés común. La Convención de Viena sobre el Derecho de los Tratados (1969) define a los tratados como acuerdos internacionales celebrados por escrito entre Estados y regidos por el derecho internacional.
-            .col-lg-auto
-              figure
-                img(src='@/assets/curso/tema2/1.png', alt='')
-
-      p(data-aos="fade-up") En el caso colombiano, los tratados internacionales complementan el marco normativo nacional, adaptando al país a los estándares globales en áreas como derechos humanos, medio ambiente, comercio y cooperación internacional. Este enfoque asegura la alineación de las disposiciones nacionales con principios universales como la justicia, la igualdad y el respeto por la dignidad humana.
-
-      p(data-aos="fade-up").mb-4 #[b El proceso de incorporación de tratados internacionales en Colombia es:]
-
-      .row.align-items-center.mb-5
-        .col-lg-5
+      .row.mb-4
+        .col-lg-4.d-none.d-sm-block
           figure
-            img(src="@/assets/curso/tema2/2.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+            img(src="@/assets/curso/tema2/1.png", data-aos="zoom-in").mb-4.mb-lg-0
 
-        .col-lg-7
+        .col-lg-8
+          p(data-aos="fade-left").mb-4 La acción de tutela es un mecanismo jurídico clave introducido con la Constitución Política de 1991 en Colombia. Su propósito es garantizar la protección inmediata de los derechos fundamentales cuando estos se ven vulnerados o amenazados. Antes de su creación, las personas enfrentaban largos y complejos procedimientos judiciales, lo que dificultaba el acceso a la justicia en situaciones críticas.
 
-          LineaTiempoD.color-primario.large.bg-azul(data-aos="fade-left")
-            p(numero="1" titulo="Negociación y firma") Representantes del Ejecutivo, generalmente a través del Ministerio de Relaciones Exteriores, negocian los términos del tratado. La firma del tratado simboliza el compromiso de las partes, aunque no implica su entrada en vigor. Esta etapa asegura que los intereses nacionales estén bien representados.
-            p(numero="2" titulo="Aprobación legislativa") El tratado es presentado al Congreso para su aprobación mediante una ley, conforme al artículo 150 de la Constitución. Este paso garantiza la coherencia del tratado con los principios del Estado y asegura un enfoque democrático en su incorporación.
-            p(numero="3" titulo="Control constitucional") La Corte Constitucional evalúa la compatibilidad del tratado con la Constitución, analizando tanto la ley aprobatoria como las disposiciones del tratado. Si se detectan inconsistencias, el tratado no puede ser ratificado hasta que se ajusten dichas incompatibilidades.
+          .bg-color-4.p-4(data-aos="fade-left").mb-4
+            p.mb-0 Su diseño busca ser ágil y accesible, permitiendo que cualquier ciudadano reclame la protección de sus derechos fundamentales sin barreras administrativas. Según Arango (2018), este mecanismo no solo asegura la reparación de derechos vulnerados, sino que refuerza la idea de que la Constitución debe ser un instrumento práctico en la vida de las personas. Además, su carácter subsidiario garantiza que solo se utilice cuando no existan otros medios judiciales idóneos o suficientes para evitar daños irreparables.
+          
+      p(data-aos="fade-left").mb-5 La tutela ha transformado el acceso a la justicia y ha fomentado una cultura de respeto hacia los derechos fundamentales, consolidando la democracia participativa y el reconocimiento de la dignidad humana como eje central del sistema jurídico colombiano.
 
-      .row.align-items-center.mb-5
-        .col-lg-5.order-lg-2
-          figure
-            img(src="@/assets/curso/tema2/3.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+      h2(data-aos="flip-up").mb-4 Derechos protegidos y características principales
 
-        .col-lg-7.order-lg-1
-
-          LineaTiempoD.color-primario.large.bg-azul(data-aos="fade-left")
-            p(numero="4" titulo="Ratificación") Una vez superado el control constitucional, el Presidente ratifica el tratado mediante un acto formal. Este paso confirma el compromiso del Estado con las obligaciones establecidas y habilita la aplicación del tratado en los ámbitos interno e internacional.
-            p(numero="5" titulo="Promulgación") El tratado se publica en el Diario Oficial, garantizando su transparencia, conocimiento público e integración al ordenamiento jurídico interno.
-
-
-
-      h2(data-aos="flip-up") Impacto de los tratados internacionales en Colombia
-
-      p.mb-5(data-aos="fade-up") Los tratados internacionales influyen significativamente en la legislación y la política pública colombiana. Algunos de los aspectos más relevantes incluyen:
+      p(data-aos="fade-left").mb-4 La acción de tutela está orientada exclusivamente a la protección de los derechos fundamentales reconocidos en la Constitución. Entre los derechos más comunes protegidos mediante este mecanismo se encuentran:
 
       .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5
@@ -53,126 +28,150 @@
                 figure
                   img(src="@/assets/curso/tema2/slider-1.png")
               .col-lg-7.order-lg-1
-                h5 Complemento a las leyes nacionales
-                p Establecen estándares internacionales que fortalecen áreas como derechos humanos, medio ambiente y comercio.
+                h5 Derecho a la vida
+                p Salvaguarda frente a riesgos inminentes, como falta de acceso a servicios médicos o amenazas físicas.
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-lg-2
                 figure
                   img(src="@/assets/curso/tema2/slider-2.png")
               .col-lg-7.order-lg-1
-                h5 Prevalencia de los derechos humanos
-                p Según el artículo 93 de la Constitución, los tratados que reconocen derechos humanos prevalecen sobre las normas internas y deben interpretarse conforme al principio pro persona, aplicando la norma que garantice mayor protección a los derechos humanos.
+                h5 Derecho a la salud
+                p Garantiza tratamientos médicos, medicamentos y servicios de salud en casos urgentes.
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-lg-2
                 figure
                   img(src="@/assets/curso/tema2/slider-3.png")
               .col-lg-7.order-lg-1
-                h5 Fortalecimiento de la jurisprudencia
-                p Tratados como la Convención Americana sobre Derechos Humanos y la Convención contra la Tortura han reforzado la protección de derechos fundamentales en Colombia.
+                h5 Derecho a la educación
+                p Permite a los estudiantes exigir su permanencia en el sistema educativo frente a decisiones arbitrarias.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-lg-2
+                figure
+                  img(src="@/assets/curso/tema2/slider-4.png")
+              .col-lg-7.order-lg-1
+                h5 Derecho al debido proceso
+                p Protege frente a decisiones judiciales o administrativas que violen principios de justicia y equidad.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-lg-2
+                figure
+                  img(src="@/assets/curso/tema2/slider-5.png")
+              .col-lg-7.order-lg-1
+                h5 Dignidad humana
+                p Asegura condiciones de vida dignas frente a situaciones discriminatorias o inhumanas.
 
+      p(data-aos="fade-left").mb-5 Las principales características de la acción de tutela son las siguientes:
 
-      p(data-aos="fade-up").mb-4 Esta estructura clarifica el proceso y el impacto de los tratados internacionales, permitiendo una comprensión integral de su importancia en el contexto colombiano.
+      .bg-full-width-2.bg-fondo-2
+        .px-4.px-md-5.pb-md-3
+          .row.justify-content-center.align-items-stretch.mb-5
+            .col-lg-4.mb-4(data-aos="zoom-in-up")
+              .custom-image-card.h-100
+                figure
+                  img.custom-image-card__image(src="@/assets/curso/tema2/2.png" alt="")
+                .custom-image-card__text.p-4
+                  h5.mb-2.text-center Rapidez
+                  p Soluciones inmediatas con un plazo máximo de 10 días hábiles para emitir un fallo.
+            .col-lg-4.mb-4(data-aos="zoom-in-down")
+              .custom-image-card.h-100
+                figure
+                  img.custom-image-card__image(src="@/assets/curso/tema2/3.png" alt="")
+                .custom-image-card__text.p-4
+                  h5.mb-2.text-center Eficacia
+                  p Los fallos son de cumplimiento obligatorio, y su desacato puede generar sanciones legales.
 
-      .bg-full-width.bg-color-6.mb-5
-        .px-4.p-md-5
-          .row.justify-content-center.align-items-center
-            .col-lg-7
-              h2.mb-4(data-aos="flip-up") Tratados destacados en el contexto colombiano
-              p.mb-4(data-aos="fade-right") Lo invitamos a leer el documento Tratados destacados en el contexto colombiano, donde se analiza el impacto de tratados internacionales clave en el fortalecimiento del marco normativo nacional y la garantía de derechos fundamentales.
+            .col-lg-4.mb-4(data-aos="zoom-in-down")
+              .custom-image-card.h-100
+                figure
+                  img.custom-image-card__image(src="@/assets/curso/tema2/4.png" alt="")
+                .custom-image-card__text.p-4
+                  h5.mb-2.text-center Accesibilidad
+                  p Disponible para cualquier persona, sin requerir abogado, lo que facilita su uso en zonas rurales o urbanas.
 
-              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
-                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
-                  img(src="@/assets/template/icono-pdf.svg")
-                .anexo__texto
-                  p <strong>Anexo. </strong> Tratados destacados en el contexto colombiano
-            .col-lg-5
-              figure(data-aos="zoom-in")
-                img(src='@/assets/curso/tema2/4.png', alt='')
+      h3(data-aos="flip-up").mb-4 ¿Cuándo se debe presentar una tutela?
+      p(data-aos="fade-left").mb-4 La tutela es pertinente en las siguientes circunstancias:
 
-      h3(data-aos="flip-up") Control constitucional de tratados para garantizar su compatibilidad con la Constitución
+      .row.justify-content-center.align-items-stretch.mb-5
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/tema2/5.png", alt="", data-aos="zoom-in")
+        .col-lg-8
+          .py-4.px-5.bg-color-6(data-aos="fade-right").h-100
+            ul.lista-ul.mb-0
+              li.mb-0
+                i.lista-ul__vineta
+                | Vulneración de derechos fundamentales: Afectación directa de derechos como la vida, la salud, la educación o el debido proceso.
+              li.mb-0
+                i.lista-ul__vineta
+                | Falta de idoneidad de otros mecanismos judiciales: Cuando los recursos legales alternativos no son efectivos para proteger el derecho vulnerado.
+              li.mb-0
+                i.lista-ul__vineta
+                | Urgencia para evitar un daño irreparable: Situaciones donde la demora podría generar consecuencias irreversibles, como la interrupción de un tratamiento médico vital.
 
-      p(data-aos="fade-up").mb-4 La Constitución colombiana establece que la Corte Constitucional es responsable de revisar la constitucionalidad de los tratados internacionales y de las leyes que los aprueban. Este control, realizado antes de la ratificación del tratado, asegura que no se vulneren los derechos fundamentales, la soberanía nacional o los principios rectores del Estado social de derecho.
+      h3(data-aos="flip-up").mb-4 Elementos esenciales de una tutela
+      p(data-aos="fade-left").mb-4 La acción de tutela debe incluir los siguientes componentes para ser válida:
 
-      p(data-aos="fade-up").mb-4 Las etapas del control constitucional de tratados internacionales son: 
+      .titulo-figura.mb-4
+        h5 Tabla 1. 
+        span Elementos de una tutela
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-xl-10
+          .tabla-a.mb-5
+            table
+              thead
+                tr
+                  th Elemento
+                  th Descripción 
+              tbody
+                tr
+                  td <strong>Identificación del solicitante</strong>
+                  td Nombre completo, número de identificación y datos de contacto del afectado.
+                tr
+                  td <strong>Identificación del accionado</strong>
+                  td Nombre de la entidad o persona responsable de la vulneración y su relación con el solicitante.
+                tr
+                  td <strong>Relación de los hechos</strong>
+                  td Narración clara y cronológica de los eventos, con fechas y lugares específicos, vinculados al derecho vulnerado.
+                tr
+                  td <strong>Fundamentos legales</strong>
+                  td Cita de normas constitucionales y jurisprudencia relevante que respalden la solicitud.
+                tr
+                  td <strong>Solicitud clara</strong>
+                  td Medida específica que el juez debe ordenar para restablecer el derecho vulnerado.
+
+      p(data-aos="fade-left").mb-5 Este diseño estructurado asegura que los jueces puedan entender el caso y responder de manera oportuna, cumpliendo el objetivo de proteger los derechos fundamentales.
+
+      h3(data-aos="flip-up").mb-4 Paso a paso para elaborar una tutela
+
+      p(data-aos="fade-left").mb-4 La acción de tutela se desarrolla siguiendo estos pasos, asegurando claridad y cumplimiento con los requisitos legales:
 
       .row.align-items-center.mb-5
         .col-lg-5
           figure
             img(src="@/assets/curso/tema2/2.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
-
         .col-lg-7
-
           LineaTiempoD.color-primario.large.bg-azul(data-aos="fade-left")
-            p(numero="1" titulo="Remisión a la Corte Constitucional") El Presidente remite el tratado aprobado por el Congreso para su revisión constitucional antes de la ratificación.
-            p(numero="2" titulo="Examen de constitucionalidad") La Corte analiza la compatibilidad con: derechos fundamentales, principios constitucionales y compromisos internacionales previos.
-            p(numero="3" titulo="Decisión de la Corte") Emisión de una sentencia que declara la compatibilidad o incompatibilidad del tratado con la Constitución. En caso de incompatibilidad, el tratado no puede ser ratificado.
-            p(numero="4" titulo="Publicación de la sentencia") La decisión es publicada en el Diario Oficial, proporcionando seguridad jurídica.
+            p(numero="1" titulo="Identificar el derecho vulnerado") Determine cuál derecho fundamental ha sido afectado, relacionándolo con los derechos reconocidos en la Constitución. Ejemplo: la negación de un medicamento vital vulnera el derecho a la salud.
+            p(numero="2" titulo="Recolectar pruebas") Reúna documentos que respalden los hechos, como correspondencia con la entidad accionada, historia médica (en casos de salud), resoluciones administrativas o testimonios de terceros.
+            p(numero="3" titulo="Redactar la tutela") Escriba el documento de manera estructurada, incluyendo: encabezado, datos del solicitante y accionado, relación de los hechos, fundamentos de derecho, pretensiones y anexos con las pruebas.
+            p(numero="4" titulo="Presentar la tutela") Entregue el documento en la oficina de reparto de tutelas correspondiente. En casos de salud, puede dirigirse al juez de turno para agilizar el proceso.
+            p(numero="5" titulo="Seguimiento del proceso") Monitoree las notificaciones y cumpla con las solicitudes del juez. El fallo debe emitirse en un plazo máximo de 10 días hábiles.
 
+      .bg-full-width.bg-color-3
+        .px-4.p-md-5
+          .row.justify-content-center.align-items-center
+            .col-lg-7
+              h2.mb-4(data-aos="flip-up") Ejemplo práctico de una tutela
+              p.mb-4(data-aos="fade-right") Lo invitamos a explorar el Ejemplo práctico de una tutela, donde se detalla el caso de un paciente con lupus que enfrenta la negativa de su EPS para acceder a un medicamento de alto costo, vulnerando su derecho a la salud y la vida. Además, el análisis destaca los retos comunes en el proceso, como el desconocimiento del procedimiento y las demoras en la ejecución de fallos, resaltando la importancia de este mecanismo para garantizar derechos fundamentales y fortalecer el acceso equitativo a la justicia.
 
-      h3(data-aos="flip-up") Impacto del control constitucional en la implementación de tratados internacionales
-
-      p(data-aos="fade-up").mb-4 El control constitucional de los tratados garantiza que los compromisos internacionales adquiridos por Colombia sean plenamente compatibles con su ordenamiento jurídico interno. Este procedimiento tiene un impacto significativo en varias áreas:
-
-      .bg-full-width.bg-fondo-slider.mb-5
-        .p-4.p-md-5
-          SlyderA(tipo="b").bg-white
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5.order-lg-2
-                figure
-                  img(src="@/assets/curso/tema2/slider-1-2.png")
-              .col-lg-7.order-lg-1
-                h5 Protección de los derechos fundamentales
-                p El control previo evita que se introduzcan disposiciones que puedan afectar negativamente los derechos de los ciudadanos, revisando tratados relacionados con derechos humanos, comercio y medio ambiente para reforzar el marco normativo nacional.
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5.order-lg-2
-                figure
-                  img(src="@/assets/curso/tema2/slider-2-2.png")
-              .col-lg-7.order-lg-1
-                h5 Fortalecimiento de la soberanía nacional
-                p Garantiza la coherencia entre los tratados y la Constitución, protegiendo la autonomía del Estado frente a posibles imposiciones externas que comprometan sus intereses nacionales.
-            .row.align-items-center.p-4.p-md-5
-              .col-lg-5.order-lg-2
-                figure
-                  img(src="@/assets/curso/tema2/slider-3-2.png")
-              .col-lg-7.order-lg-1
-                h5 Cumplimiento de los compromisos internacionales
-                p Refuerza la credibilidad de Colombia en la comunidad internacional, asegurando que los tratados ratificados sean implementados de manera efectiva y en conformidad con el derecho interno.
-
-
-                p(data-aos="fade-up") En el caso colombiano, los tratados internacionales complementan el marco normativo nacional, adaptando al país a los estándares globales en áreas como derechos humanos, medio ambiente, comercio y cooperación internacional. Este enfoque asegura la alineación de las disposiciones nacionales con principios universales como la justicia, la igualdad y el respeto por la dignidad humana.
-
-      h3(data-aos="flip-up") Casos emblemáticos de control constitucional de tratados en Colombia
-
-      p(data-aos="fade-up").mb-4 A lo largo de los años, la Corte Constitucional ha revisado numerosos tratados internacionales, estableciendo precedentes importantes sobre su compatibilidad con la Constitución. Algunos casos destacados incluyen:
-
-      .row.align-items-center.mb-5
-        .col-lg-5
-          figure
-            img(src="@/assets/curso/tema2/6.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
-
-        .col-lg-7
-
-          LineaTiempoD.color-primario.large.bg-azul(data-aos="fade-left")
-            p(numero="1" titulo="Tratado de Libre Comercio entre Colombia y Estados Unidos") La Corte analizó su impacto en derechos laborales, medio ambiente y soberanía alimentaria, concluyendo que era compatible con la Constitución, pero resaltando la necesidad de medidas complementarias para proteger a los sectores vulnerables.
-            p(numero="2" titulo="Acuerdo de Escazú") Este tratado, enfocado en el acceso a la información, participación pública y justicia en asuntos ambientales, fue considerado coherente con los derechos constitucionales y clave para fortalecer la democracia ambiental en Colombia.
-            p(numero="3" titulo="Estatuto de Roma de la Corte Penal Internacional") La revisión concluyó que el Estatuto complementa el sistema judicial nacional, reafirmando el compromiso de Colombia con la justicia internacional sin comprometer la autonomía del sistema judicial interno.
-            p(numero="4" titulo="Convenio 169 de la OIT sobre Pueblos Indígenas y Tribales") La Corte destacó el principio de consulta previa establecido en el convenio, asegurando que su implementación respete los derechos colectivos de las comunidades indígenas y afrodescendientes en Colombia.
-
-      .row.mb-5
-        .col-lg-8
-          h3(data-aos="flip-up").mb-4 Desafíos y perspectivas
-          p(data-aos="fade-left").mb-4 El control constitucional enfrenta desafíos como equilibrar compromisos internacionales e intereses nacionales y gestionar la creciente complejidad de los tratados modernos. Es crucial fortalecer las capacidades de análisis de la Corte Constitucional y promover la cooperación interinstitucional.
-
-          .bg-color-3.p-4(data-aos="fade-left").mb-4
-            .row.align-items-center
-              .col-lg-auto
-                img(src="@/assets/curso/tema2/8.svg", style="max-width: 90px").mx-auto
-              .col-lg
-                p.mb-0 Este mecanismo es un pilar esencial del sistema jurídico colombiano, asegurando la coherencia entre los tratados internacionales y la Constitución, mientras protege derechos fundamentales y fortalece la soberanía nacional.
-
-        .col-lg-4
-          figure
-            img(src="@/assets/curso/tema2/7.png", data-aos="zoom-in")
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p <strong>Anexo. </strong> Ejemplo práctico de una tutela
+            .col-lg-5
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema2/7.png', alt='')
 
       .bg-full-width.border-top.color-primario
         .p-4.p-md-5
@@ -180,21 +179,20 @@
           .row.material-complementario
             .col-12.col-md-6.col-lg-7
               p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-  
+
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://www.repository.fedesarrollo.org.co/bitstream/handle/11445/260/Co_Eco_Sem1_2013_Parra-Pena_Ordonez_y_Acosta.pdf?sequence=2" target="_blank" rel="noopener noreferrer") Parra-Peña, R., Ordóñez, L., & Acosta, P. (2013). Pobreza, brechas y ruralidad en Colombia . Coyuntura Económica , 43(1), 151-183. 
-  
-                p.d-flex.my-4
-                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://revistas.lasalle.edu.co/index.php/ruls/article/view/1955" target="_blank" rel="noopener noreferrer") Gómez, S. (2017). Brechas urbano-rurales: Las desigualdades rurales en Colombia . Revista de la Universidad de La Salle , (73), 123-140. 
-  
-  
+                a(href="https://www.personeriabogota.gov.co/images/libros/ABC_DE_LAS_ACCIONES_DE_TUTELA_DIGITAL-2.pdf" target="_blank" rel="noopener noreferrer") Personería de Bogotá. (2021). ABC de las acciones de tutela: Guía práctica para la defensa de los derechos fundamentales. Personería de Bogotá.  
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=O2TyIT7TLtY" target="_blank" rel="noopener noreferrer") La Nota Jurídica. (2017, 6 de mayo). Acciones constitucionales: Acciones populares y acciones de grupo
+
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure
                 img(src='@/assets/componentes/material-complementario.svg', alt='')
-  
-  </template>
+
+</template>
 
 <script>
 export default {

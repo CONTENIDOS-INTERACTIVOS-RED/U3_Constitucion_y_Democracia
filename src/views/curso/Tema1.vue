@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Orden Legal en Colombia'")
+  BannerInterno(:subTitulo="'1. Acciones Constitucionales, Acciones de Grupo y Acciones Populares.'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .bg-color-2.mb-5(data-aos="fade-up")
@@ -256,8 +256,7 @@
                 style="width: 90px"
               )
               h5.text-center Prevención y protección
-              p.mb-0.text-center Las acciones colectivas, como las populares, son efectivas para prevenir daños mayores.
-              p #[b Ejemplo:] en Antioquia, se suspendió la construcción de una planta industrial que incumplía normas ambientales.
+              p.mb-0.text-center Las acciones colectivas, como las populares, son efectivas para prevenir daños mayores. #[b Ejemplo:] en Antioquia, se suspendió la construcción de una planta industrial que incumplía normas ambientales.
 
           
           div.col-lg-4.mb-4(data-aos="zoom-in-up")
@@ -268,8 +267,7 @@
                 style="width: 90px"
               )
               h5.text-center Empoderamiento ciudadano
-              p.mb-0.text-center Estas herramientas protegen derechos y educan a las comunidades sobre su importancia.
-              p #[b Ejemplo:] víctimas de desplazamiento forzado lograron reparaciones y reubicación de tierras en el Meta mediante acciones de grupo.
+              p.mb-0.text-center Estas herramientas protegen derechos y educan a las comunidades sobre su importancia. #[b Ejemplo:] víctimas de desplazamiento forzado lograron reparaciones y reubicación de tierras en el Meta mediante acciones de grupo.
 
 
     h2(data-aos="flip-up") Desafíos y áreas de mejora
@@ -304,15 +302,11 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://repository.javeriana.edu.co/bitstream/handle/10554/14916/HolguinRangelYadira2014.pdf" target="_blank" rel="noopener noreferrer") Holguín Rangel, Y. (2014). Autonomía fiscal de las entidades territoriales en Colombia . Pontificia Universidad Javeriana
-
-              p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://repository.usta.edu.co/bitstream/handle/1163437873/2021ruthmoralesyedwinbarrera.pdf?sequence=1" target="_blank" rel="noopener noreferrer") Morales, R. y Barrera, E. (2021). Autonomía fiscal de los municipios en Colombia, los elementos del tributo y la reserva de ley . Universidad Santo Tomás. 
+              a(href="https://www.consejodeestado.gov.co/documentos/biblioteca/libros/2019pr/Tomo1/Vol1_ACCIONES_POPULARES_GRUPO.pdf" target="_blank" rel="noopener noreferrer") Consejo de Estado. (2019). Acciones populares y de grupo: Protección de los derechos colectivos en Colombia (Vol. 1). Consejo de Estado. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/user/CorteConstitucional" target="_blank" rel="noopener noreferrer") Corte Constitucional de Colombia. (Dakota del Norte). El sistema jurídico colombiano explicado 
+              a(href="https://www.youtube.com/watch?v=RRmbsbi_WQk" target="_blank" rel="noopener noreferrer") Fundación Koikos. (2021, 29 de enero). La acción de tutela: Todo lo que necesitas saber 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
