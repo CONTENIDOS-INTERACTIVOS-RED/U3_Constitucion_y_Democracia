@@ -148,7 +148,7 @@
       .row.align-items-center.mb-5
         .col-lg-5
           figure
-            img(src="@/assets/curso/tema2/2.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+            img(src="@/assets/curso/tema2/6.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
         .col-lg-7
           LineaTiempoD.color-primario.large.bg-azul(data-aos="fade-left")
             p(numero="1" titulo="Identificar el derecho vulnerado") Determine cuál derecho fundamental ha sido afectado, relacionándolo con los derechos reconocidos en la Constitución. Ejemplo: la negación de un medicamento vital vulnera el derecho a la salud.
