@@ -204,6 +204,7 @@
             .div(titulo="Exceso en tiempos de detención preventiva")
               p Garantizar el cumplimiento de los límites legales en detenciones preventivas y evitar prolongaciones injustificadas.
 
+      p(data-aos="fade-left").mb-4 Estos ejemplos ilustran cómo el #[em Habeas Corpus] protege la libertad personal y actúa como un símbolo de resistencia frente a abusos de poder.
 
       h2(data-aos="fade-left").mb-4 Retos en su aplicación
       p(data-aos="fade-left").mb-4 El #[em Habeas Corpus] enfrenta desafíos que afectan su efectividad como mecanismo de protección de la libertad individual.
@@ -339,7 +340,7 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'UNIDAD 2',
+        tema: 'UNIDAD 3',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -347,19 +348,28 @@ export default {
         preguntas: [
           {
             id: 1,
-            texto:
-              'La acción de tutela es un mecanismo para proteger los derechos fundamentales de los ciudadanos.',
+            texto: '¿Qué es la transparencia en la administración pública?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Verdadero',
+                texto: 'Acceso a la información y rendición de cuentas.',
                 esCorrecta: true,
               },
               {
                 id: 'b',
-                texto: 'Falso',
+                texto: 'Exclusividad en el comercio.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Creación de nuevas leyes.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Organización de elecciones.',
                 esCorrecta: false,
               },
             ],
@@ -368,19 +378,28 @@ export default {
           },
           {
             id: 2,
-            texto:
-              'El derecho de petición permite a los ciudadanos solicitar información o servicios a las autoridades.',
+            texto: '¿Qué es la acción de tutela?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Verdadero',
-                esCorrecta: true,
+                texto: 'Un tipo de contrato comercial.',
+                esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Falso',
+                texto: 'Un mecanismo para proteger derechos fundamentales.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Una ley de impuestos.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Un procedimiento electoral.',
                 esCorrecta: false,
               },
             ],
@@ -389,19 +408,30 @@ export default {
           },
           {
             id: 3,
-            texto:
-              'El plebiscito es un mecanismo consultivo utilizado para que los ciudadanos expresen su opinión sobre decisiones políticas de gran relevancia.',
+            texto: '¿Qué es el interés colectivo?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Verdadero',
-                esCorrecta: true,
+                texto:
+                  'Bien o derecho que beneficia a un individuo específico.',
+                esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Falso',
+                texto: 'Bien o derecho que regula el comercio.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Bien o derecho que beneficia a una comunidad o grupo social.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Bien o derecho que organiza elecciones.',
                 esCorrecta: false,
               },
             ],
@@ -410,20 +440,30 @@ export default {
           },
           {
             id: 4,
-            texto:
-              'La consulta popular permite a los ciudadanos decidir sobre asuntos de interés nacional, departamental, municipal o distrital.',
+            texto: '¿Qué es la jurisprudencia?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Verdadero',
-                esCorrecta: true,
+                texto: 'Conjunto de contratos comerciales.',
+                esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Falso',
+                texto: 'Conjunto de leyes de impuestos.',
                 esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Conjunto de procedimientos electorales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Conjunto de decisiones y fallos emitidos por los jueces.',
+                esCorrecta: true,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -431,19 +471,28 @@ export default {
           },
           {
             id: 5,
-            texto:
-              'La iniciativa legislativa permite a los ciudadanos presentar proyectos de ley o normativas locales para su discusión y aprobación.',
+            texto: '¿Qué es la libertad personal?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Verdadero',
+                texto: 'Derecho a no ser detenido arbitrariamente.',
                 esCorrecta: true,
               },
               {
                 id: 'b',
-                texto: 'Falso',
+                texto: 'Derecho a no pagar impuestos.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Derecho a no firmar contratos comerciales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Derecho a no votar en elecciones.',
                 esCorrecta: false,
               },
             ],

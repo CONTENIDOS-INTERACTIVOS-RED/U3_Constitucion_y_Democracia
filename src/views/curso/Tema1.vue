@@ -82,7 +82,7 @@
     p.mb-4(data-aos="fade-up") Las acciones constitucionales en Colombia se clasifican en dos categorías principales: #[b acciones individuales y acciones colectivas.] Esta clasificación responde a los diferentes objetivos y alcances que tienen estas herramientas dentro del marco del Estado Social de Derecho, garantizando tanto la protección de derechos fundamentales individuales como la defensa de intereses colectivos que afectan a la sociedad en general.
 
     h2(data-aos="flip-up") Acciones individuales
-    p.mb-4(data-aos="fade-up") Las acciones constitucionales en Colombia se clasifican en dos categorías principales: #[b acciones individuales y acciones colectivas.] Esta clasificación responde a los diferentes objetivos y alcances que tienen estas herramientas dentro del marco del Estado Social de Derecho, garantizando tanto la protección de derechos fundamentales individuales como la defensa de intereses colectivos que afectan a la sociedad en general.
+    p.mb-4(data-aos="fade-up") Las acciones constitucionales en Colombia se dividen en dos categorías principales: acciones individuales y acciones colectivas. Ambas buscan garantizar la protección de derechos, ya sea a nivel personal o colectivo, en el marco del Estado Social de Derecho. Estas acciones tienen como objetivo proteger derechos fundamentales específicos de una persona frente a una amenaza o vulneración. Las herramientas principales dentro de esta categoría son:
 
 
     .bg-full-width.bg-fondo-slider.mb-5
@@ -234,8 +234,8 @@
               
     .bg-full-width-2.bg-fondo-1
       .p-4.p-md-5
-        h2(data-aos="flip-up") Principios y características fundamentales
-        p(data-aos="fade-up").mb-4 La democracia implica la distribución equitativa del poder y la participación activa de los ciudadanos. Aunque los modelos modernos difieren del ateniense en estructura, comparten principios esenciales:
+        h2(data-aos="flip-up") Análisis de su efectividad en garantizar el acceso a la justicia
+        p(data-aos="fade-up").mb-4 El impacto positivo de las acciones constitucionales radica en su capacidad para garantizar la justicia de forma accesible, especialmente para quienes enfrentan barreras económicas, sociales o geográficas. A continuación, se analizan sus principales características, beneficios y desafíos:
 
         div.row.justify-content-center.align-items-stretch
           div.col-lg-4.mb-4(data-aos="zoom-in-up")
