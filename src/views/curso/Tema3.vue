@@ -317,7 +317,7 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334" target="_blank" rel="noopener noreferrer") Departamento Administrativo de la Función Pública. (2020). Decreto 1167 de 2020: Por el cual se dictan disposiciones relacionadas con el ejercicio del derecho de petición. Función Pública.
+                a(href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=65334" target="_blank" rel="noopener noreferrer") Departamento Administrativo de la Función Pública. (2015).  Ley 1755 de 2015. Por el cual se dictan disposiciones relacionadas con el ejercicio del derecho de petición. Función Pública.
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
